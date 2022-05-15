@@ -1,0 +1,15 @@
+{
+  "extends": "@uwu-codes/tsconfig",
+  "compilerOptions": {
+    "outDir": "./build",
+    "baseUrl": "./src",
+    "skipLibCheck": true,
+    "inlineSourceMap": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "declaration": true
+  },
+  "include": ["**/*"],
+  "exclude": ["node_modules", "build"]
+}
